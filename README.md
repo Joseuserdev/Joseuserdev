@@ -12,12 +12,11 @@
 🧠 QUEM EU SOU ?
 
 </div>
-```python
-class AIEngineer:
-    def __init__(self):
-        self.role      = "AI Engineer & API Developer"
-        self.location  = "Brasil 🇧🇷"
-        self.stack     = {
+```
+    
+         "AI Engineer & API Developer"
+         "Brasil 🇧🇷"
+         {
             "ai_agents" : ["LangChain", "CrewAI", "HuggingFace", "RAG", "MCP Server"],
             "backend"   : ["FastAPI", "SQLAlchemy", "JWT Auth", "OAuth2", "Pydantic"],
             "devops"    : ["Docker", "Kubernetes", "AWS", "CI/CD", "GitHub Actions"],
