@@ -12,19 +12,24 @@
 🧠 QUEM EU SOU ?
 
 </div>
-```
-    
-         "AI Engineer & API Developer"
-         "Brasil 🇧🇷"
-         {
-            "ai_agents" : ["LangChain", "CrewAI", "HuggingFace", "RAG", "MCP Server"],
-            "backend"   : ["FastAPI", "SQLAlchemy", "JWT Auth", "OAuth2", "Pydantic"],
-            "devops"    : ["Docker", "Kubernetes", "AWS", "CI/CD", "GitHub Actions"],
-            "databases" : ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "VectorDB"],
-            "patterns"  : ["SOLID", "Clean Architecture", "Repository", "Factory", "DI"],
+```python
+class JoseGomes:
+    def __init__(self):
+        self.role       = "AI Engineer & API Developer"
+        self.location   = "Brasil 🇧🇷"
+        self.stack      = {
+            "ai_agents" : ["LangChain", "CrewAI", "RAG", "MCP Server"],
+            "backend"   : ["FastAPI", "SQLAlchemy", "JWT Auth", "Pydantic"],
+            "devops"    : ["Docker", "Kubernetes", "AWS", "CI/CD"],
+            "databases" : ["PostgreSQL", "MongoDB", "VectorDB"]
         }
-        self.now       = "Building AI Agents & intelligent APIs 🚀"
-        self.fun_fact  = "Cada API pode ser turbinada com IA 💡"
+        self.goal       = "Building AI Agents & intelligent APIs 🚀"
+
+    def say_hi(self):
+        print("Vamos construir algo incrível juntos! 🤖")
+
+jose = JoseGomes()
+jose.say_hi()
 
 def say_hi(self):
     print("Vamos construir algo incrível juntos! 🤖")
@@ -42,8 +47,14 @@ def say_hi(self):
 
 </div>
 
----
-
+--- ## ⚡ middleware.highlight()
+<div align="center">
+<a href="https://git.io/typing-svg">
+<img src="https://www.google.com/search?q=https://readme-typing-svg.demolab.com%3Ffont%3DFira%2BCode%26weight%3D600%26size%3D24%26pause%3D1000%26color%3D9D4EDD%26center%3Dtrue%26vCenter%3Dtrue%26width%3D800%26height%3D50%26lines%3DCORE%2BSTACK:%3B%2BLangChain%2B%25E2%2580%25A2%2BCrewAI%2B%25E2%2580%25A2%2BRAG%2B%25E2%2580%25A2%2BMCP%3B%2BFastAPI%2B%25E2%2580%25A2%2BSQLAlchemy%2B%25E2%2580%25A2%2BPydantic%3B%2BDocker%2B%25E2%2580%25A2%2BKubernetes%2B%25E2%2580%25A2%2BAWS%2B%25E2%2580%25A2%2BCI%252FCD%3B%2BPostgreSQL%2B%25E2%2580%25A2%2BVectorDB%2B%25E2%2580%25A2%2BNoSQL" alt="Typing SVG" />
+</a>
+</div>
+<div align="center">
+  
 ## 🤖 AI / Agents / RAG
 
 <p>
@@ -84,12 +95,12 @@ def say_hi(self):
 ## 🗄️ Databases
 
 <p>
+  <img src="https://img.shields.io/badge/Alembic-0d0d0d?style=for-the-badge&logo=alembic&logoColor=7c3aed"/>
   <img src="https://img.shields.io/badge/PostgreSQL-0d0d0d?style=for-the-badge&logo=postgresql&logoColor=9D4EDD"/>
   <img src="https://img.shields.io/badge/MySQL-0d0d0d?style=for-the-badge&logo=mysql&logoColor=7c3aed"/>
   <img src="https://img.shields.io/badge/SQLite-0d0d0d?style=for-the-badge&logo=sqlite&logoColor=9D4EDD"/>
   <img src="https://img.shields.io/badge/MongoDB-0d0d0d?style=for-the-badge&logo=mongodb&logoColor=7c3aed"/>
   <img src="https://img.shields.io/badge/Redis-0d0d0d?style=for-the-badge&logo=redis&logoColor=9D4EDD"/>
-  <img src="https://img.shields.io/badge/Alembic-0d0d0d?style=for-the-badge&logo=alembic&logoColor=7c3aed"/>
 </p>
 
 ## 🏗️ Design Patterns & Arquitetura
